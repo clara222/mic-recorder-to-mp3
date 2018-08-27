@@ -15,41 +15,5 @@ declare class mic_recorder_to_mp3 {
 
 }
 
-declare namespace mic_recorder_to_mp3 {
-    namespace prototype {
-        function addMicrophoneListener(stream: any): void;
 
-        function getMp3(): any;
-
-        function start(): any;
-
-        function stop(): any;
-
-        namespace addMicrophoneListener {
-            const prototype: {
-            };
-
-        }
-
-        namespace getMp3 {
-            const prototype: {
-            };
-
-        }
-
-        namespace start {
-            const prototype: {
-            };
-
-        }
-
-        namespace stop {
-            const prototype: {
-            };
-
-        }
-
-    }
-
-}
 
